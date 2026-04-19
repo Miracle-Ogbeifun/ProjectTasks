@@ -1,0 +1,40 @@
+Task 4: Deploy a Linux Virtual Machine
+
+What to do:
+
+Deploy a VM with the following configuration:
+
+Setting	Value
+
+Image	Ubuntu Server 22.04 LTS
+
+Size	Standard_B1s
+
+Subnet	WebSubnet
+
+Public IP	Yes (for testing — in production you'd use a load balancer)
+
+Authentication	SSH public key (recommended) or password
+
+Inbound ports	SSH (22) — for initial setup only
+
+After the VM is deployed:
+
+1.	SSH into the VM
+
+2.	Install Nginx: sudo apt update && sudo apt install nginx -y
+
+3.	Verify Nginx is running: sudo systemctl status nginx
+
+4.	Open a browser and navigate to the VM's public IP — you should see the Nginx welcome page
+
+
+Acceptance Criteria:
+
+•	VM is running with status "Running" in the Portal
+
+•	VM size is Standard_B1s
+
+•	VM is in WebSubnet
+
+•	Nginx welcome page loads in browser at the VM's public IP
