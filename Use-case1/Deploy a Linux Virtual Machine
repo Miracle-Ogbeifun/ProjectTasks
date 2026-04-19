@@ -33,6 +33,7 @@ Acceptance Criteria:
 
 •	VM is running with status "Running" in the Portal
 
+
 •	VM size is Standard_B1s
 
 •	VM is in WebSubnet
