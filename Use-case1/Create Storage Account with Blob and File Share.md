@@ -99,8 +99,7 @@ Click on +Add container
 
 Click on the container to open
 
-**Click on +Add Directory to upload a file to the container
-**
+**Click on +Add Directory to upload a file to the container**
 
 <img width="1333" height="603" alt="Screenshot 2026-04-16 231606" src="https://github.com/user-attachments/assets/ca209126-6a03-4047-ab94-4691ddc00881" />
 
