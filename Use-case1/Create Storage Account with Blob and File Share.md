@@ -73,7 +73,7 @@ Deploy a Linux Virtual Machine in Azure portal
 <img width="977" height="653" alt="Screenshot 2026-04-16 224204" src="https://github.com/user-attachments/assets/9ff6802a-7426-4bd6-ae17-e5da3ac0fd15" />
 
 
-Click review + create to create.
+Click review **+ create to create.**
 
 <img width="1037" height="562" alt="Screenshot 2026-04-16 224254" src="https://github.com/user-attachments/assets/9ec8d195-fad4-416a-bd08-6ebf2d70a5a0" />
 
@@ -90,17 +90,21 @@ Click on +Add container
 <img width="1190" height="626" alt="Screenshot 2026-04-16 231056" src="https://github.com/user-attachments/assets/4165f6e2-3dc2-4b03-934b-2cb0c596d6cf" />
 
 
-Container is Created
+**Container is Created**
 
 <img width="1193" height="643" alt="Screenshot 2026-04-16 231435" src="https://github.com/user-attachments/assets/8e6c9b06-eb1a-4d69-af24-1039635fc0e7" />
 
 
+
+
 Click on the container to open
 
-Click on +Add Directory to upload a file to the container
-
+**Click on +Add Directory to upload a file to the container
+**
 
 <img width="1333" height="603" alt="Screenshot 2026-04-16 231606" src="https://github.com/user-attachments/assets/ca209126-6a03-4047-ab94-4691ddc00881" />
+
+
 
 
 **At least one test file is uploaded to the blob container**
@@ -109,21 +113,24 @@ Click on +Add Directory to upload a file to the container
 
 
 
+
 **File share it-department exists with 5 GB quota**
 
 Click on Data storage>> File shares
 
-Click on +File share
+Click on **+File share**
 
 <img width="987" height="619" alt="Screenshot 2026-04-16 231938" src="https://github.com/user-attachments/assets/f8e33439-05fc-4ec2-8148-cdd1a50aa0b0" />
 
 
-Click on review to create
+
+
+**Click on review to create**
 
 <img width="802" height="532" alt="Screenshot 2026-04-16 232802" src="https://github.com/user-attachments/assets/01a982ff-3278-47a4-9de0-e73cedba5387" />
 
 
-To change the quota, click on the three (…) at the right hand corner of the screen
-
+**To change the quota, click on the three (…) at the right hand corner of the screen
+**
 <img width="1235" height="586" alt="Screenshot 2026-04-17 212602" src="https://github.com/user-attachments/assets/0a8f72b7-f66b-42a9-a393-e5014b52bafb" />
 
