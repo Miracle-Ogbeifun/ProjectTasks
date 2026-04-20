@@ -44,7 +44,11 @@ Inbound ports	SSH (22) — for initial setup only
 
 <img width="1051" height="640" alt="Screenshot 2026-04-15 231702" src="https://github.com/user-attachments/assets/d067c781-df00-4229-b55f-d058a92ec30a" />
 
+
+
 •	Nginx welcome page loads in browser at the VM's public IP
+
+
 
 
 **Create virtual machine**
@@ -55,7 +59,10 @@ Under Services, select Virtual machines.
 
 In the Virtual machines page, select Create and then Virtual machine. The Create a virtual machine page opens.
 
+
 <img width="1172" height="495" alt="Screenshot 2026-04-15 213851" src="https://github.com/user-attachments/assets/b4a5dd9b-62cd-4169-ab81-19ee4de06749" />
+
+
 
 Enter the following values:
 
