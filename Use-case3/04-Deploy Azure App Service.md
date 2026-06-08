@@ -26,7 +26,7 @@ App Service shows "Running" status in the Portal
 
 <img width="1037" height="666" alt="Screenshot 2026-06-03 110722" src="https://github.com/user-attachments/assets/6c012f8c-9670-44e7-afa3-b1b01fa94c7d" />
 
-
+<br><br>
 
 Create an App Service Plan: asp-novatech-{id}-support (Free F1 or Basic B1 tier)
 
