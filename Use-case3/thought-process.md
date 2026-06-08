@@ -3,6 +3,11 @@
 
 <img width="1299" height="528" alt="Screenshot 2026-06-03 161950" src="https://github.com/user-attachments/assets/88a92e70-7f5f-4a30-92cc-0673d8677c96" />
 
+<br><br>
+
+<img width="1323" height="567" alt="Screenshot 2026-06-08 235145" src="https://github.com/user-attachments/assets/f33c3467-d697-4a66-ba74-124b2880f366" />
+
+<br><br>
 
 Answer the following in your thought-process.md:
 
@@ -133,16 +138,15 @@ I reviewed Microsoft Defender for Cloud by navigating to:
 Microsoft Defender for Cloud → Overview
 
 The Secure Score for my subscription was:
-
-[Insert your Secure Score here]
+42%
 
 Top 3 Recommendations
 
 The top recommendations shown were:
 
-[Insert Recommendation #1]
-[Insert Recommendation #2]
-[Insert Recommendation #3]
+Single recommendation available
+
+
 Observation
 
 Microsoft Defender for Cloud provides security posture management by identifying risks and recommending actions to improve the overall security of Azure resources.
