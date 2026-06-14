@@ -155,3 +155,140 @@ If successful, you should see HTML beginning with something like:
 
 <img width="1141" height="578" alt="Screenshot 2026-06-12 224918" src="https://github.com/user-attachments/assets/90871379-8847-43f2-9064-bbce87a6ea14" />
 
+
+
+**Create a Standard Load Balancer**
+
+Search for Load Balancers.
+
+Click Create.
+
+<img width="797" height="394" alt="Screenshot 2026-06-11 165500" src="https://github.com/user-attachments/assets/290ab6c5-dd74-4967-900a-3155a462e8d1" />
+
+
+Basics Setting	Value
+Name	novatech-lb
+Region	East US
+Type	Public
+SKU	Standard
+
+<img width="847" height="577" alt="Screenshot 2026-06-11 170228" src="https://github.com/user-attachments/assets/832d0254-07e0-48f0-9ed9-970e44a126a0" />
+
+Create Frontend IP
+
+lb-public-ip
+
+<img width="973" height="375" alt="Screenshot 2026-06-11 170245" src="https://github.com/user-attachments/assets/9b02c87b-aac7-4b4c-811c-9eaaaad5f842" />
+
+
+Create the Load Balancer.
+
+
+
+Configure Backend Pool
+
+Open the Load Balancer.
+
+Navigate:
+
+Settings → Backend Pools
+
+Click:
+
++ Add
+
+<img width="907" height="482" alt="Screenshot 2026-06-11 170526" src="https://github.com/user-attachments/assets/f45c6a11-3340-469d-80aa-4aef67e7d390" />
+
+
+Name:
+
+web-backend-pool
+
+Add:
+
+
+<img width="1255" height="575" alt="Screenshot 2026-06-11 170822" src="https://github.com/user-attachments/assets/855b669c-de6f-4bae-b6f0-6d05a6a630e3" />
+
+vm-novatech-{id}-web01
+vm-novatech-{id}-web02
+
+Save.
+
+<img width="1296" height="495" alt="Screenshot 2026-06-11 171032" src="https://github.com/user-attachments/assets/55500163-78dc-4125-8aec-84364eca3547" />
+
+
+**Create Health Probe**
+
+Navigate:
+
+Health Probes
+
+Click:
+
++ Add
+
+<img width="913" height="494" alt="Screenshot 2026-06-11 171111" src="https://github.com/user-attachments/assets/f0b61d49-e036-44c3-94a4-17e28b4f8617" />
+
+
+Configure:
+
+Setting	Value
+Name	http-probe
+Protocol	HTTP
+Port	80
+Interval	5 seconds
+
+<img width="770" height="585" alt="Screenshot 2026-06-11 171207" src="https://github.com/user-attachments/assets/b9765f57-a115-4811-95b8-83bb024a7ece" />
+
+Save.
+
+
+**Create Load Balancing Rule**
+
+Navigate:
+
+Load Balancing Rules
+
+Click:
+
++ Add
+
+<img width="894" height="530" alt="Screenshot 2026-06-11 171253" src="https://github.com/user-attachments/assets/3912699a-4bca-45ae-80dd-fa1db565bcec" />
+
+
+Configure:
+
+Setting	Value
+Name	http-rule
+Frontend IP	Public Frontend
+Protocol	TCP
+Frontend Port	80
+Backend Port	80
+Backend Pool	web-backend-pool
+Health Probe	http-probe
+
+<img width="800" height="587" alt="Screenshot 2026-06-11 171554" src="https://github.com/user-attachments/assets/0bbd205d-d70e-41a8-8bbd-394f91733afa" />
+
+<img width="853" height="575" alt="Screenshot 2026-06-11 171616" src="https://github.com/user-attachments/assets/1c3221f5-cf2b-4945-90ee-88e489ee231e" />
+
+Save.
+
+
+<img width="1090" height="591" alt="Screenshot 2026-06-12 121705" src="https://github.com/user-attachments/assets/28a5cd40-5ed6-415a-836e-01f49aa1222c" />
+
+
+Verify Health
+
+Open:
+
+Load Balancer → Backend Pools
+
+You should see:
+
+vm-novatech-{id}-web01
+Healthy
+
+vm-novatech-{id}-web02
+Healthy
+
+<img width="1323" height="559" alt="Screenshot 2026-06-12 134620" src="https://github.com/user-attachments/assets/08d65807-191c-4ce0-8f18-b3d2488103a2" />
