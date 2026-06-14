@@ -9,6 +9,8 @@ Log Analytics workspace exists
 
 At least one diagnostic setting is configured and sending data
 
+<img width="1288" height="477" alt="Screenshot 2026-06-13 132213" src="https://github.com/user-attachments/assets/4550ea0e-63fe-4427-a0c8-2d9f151e5693" />
+
 
 You can run a KQL query and see results
 
@@ -116,3 +118,11 @@ Click the Run button next to Heartbeat.
 Heartbeat returned records
 
 <img width="1302" height="506" alt="Screenshot 2026-06-13 125643" src="https://github.com/user-attachments/assets/ee492acd-95fc-41f6-8ad6-1606dffd52de" />
+
+The important takeaway is:
+
+The VM is sending Heartbeat data to Log Analytics
+
+The Log Analytics Workspace is receiving data
+
+The Azure Monitor Agent / Data Collection Rule is working
