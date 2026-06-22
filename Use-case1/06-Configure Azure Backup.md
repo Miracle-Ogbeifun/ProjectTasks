@@ -1,4 +1,4 @@
-Task 6: Configure Azure Backup
+**Task 6: Configure Azure Backup**
 
 What to do:
 
