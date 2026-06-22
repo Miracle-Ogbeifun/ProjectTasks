@@ -1,9 +1,11 @@
 
 <img width="1286" height="560" alt="Screenshot 2026-06-13 151017" src="https://github.com/user-attachments/assets/9590047a-c8a1-4ab3-bc72-7f468fb0773f" />
 
+<br><br>
 
 <img width="1105" height="563" alt="Screenshot 2026-06-13 151125" src="https://github.com/user-attachments/assets/86fd8cf4-e72d-45ec-9324-048c034ce461" />
 
+<br><br>
 
 # Azure Infrastructure Review
 
