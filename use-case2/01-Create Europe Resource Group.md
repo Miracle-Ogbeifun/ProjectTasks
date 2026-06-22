@@ -1,5 +1,5 @@
 
-##**Create Europe Resource Group.**##
+**Create Europe Resource Group.**
 
 
 **Acceptance Criteria:**
