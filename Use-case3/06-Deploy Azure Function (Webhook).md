@@ -1,7 +1,7 @@
-**Deploy Azure Function (Webhook)**
+# **Deploy Azure Function (Webhook)**
 
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 Function App exists and shows "Running"
 
@@ -31,7 +31,7 @@ Sending a test POST request returns a success response
 
 <br><br>
 
-**Create the Function App**
+## **Create the Function App**
 
 In Azure Portal:
 
