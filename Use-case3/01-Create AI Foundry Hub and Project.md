@@ -1,4 +1,4 @@
-**Acceptance Criteria:**
+# **Acceptance Criteria:**
 
 AI Foundry Hub exists in your resource group
 
@@ -19,7 +19,7 @@ You can access the project in the AI Foundry portal
 <img width="1184" height="399" alt="Screenshot 2026-06-02 123854" src="https://github.com/user-attachments/assets/13fb5120-95e0-46ec-b5a9-b5ed9bbc2026" />
 
 
-
+<br><br>
 **Create a Hub from the Azure Portal**
 
 
@@ -33,9 +33,10 @@ Click + Create.
 
 Select Hub
 
+<br><br>
 <img width="727" height="468" alt="Screenshot 2026-06-02 122716" src="https://github.com/user-attachments/assets/13924df2-aeae-4b78-94a5-0da8636eb3c8" />
 
-
+<br><br>
 Enter:
 
 Hub name
@@ -45,10 +46,10 @@ Subscription
 Resource Group
 
 Region (Location)
-
+<br><br>
 <img width="821" height="583" alt="Screenshot 2026-06-02 123040" src="https://github.com/user-attachments/assets/4c3c6cee-c6cb-4dc2-8d61-16b352ffc103" />
 
-
+<br><br>
 Click Review + Create.
 
 Click Create and wait for deployment to finish.
