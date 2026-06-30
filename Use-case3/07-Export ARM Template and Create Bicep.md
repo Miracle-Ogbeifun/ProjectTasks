@@ -1,4 +1,4 @@
-**Export ARM Template and Create Bicep**
+# **Export ARM Template and Create Bicep**
 
 
 
@@ -15,7 +15,7 @@ Create a simplified Bicep file for just the App Service resource:
 
 <br><br>
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 ARM template JSON is downloaded and saved in your GitHub repo
 
@@ -43,7 +43,7 @@ ARM is hard to read while Bicep is clean and readable
 <br><br>
 
 
-Export ARM Template (Portal)
+## **Export ARM Template (Portal)**
 
 Go to Resource Group
 
