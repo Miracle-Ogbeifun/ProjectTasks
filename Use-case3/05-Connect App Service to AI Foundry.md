@@ -1,4 +1,4 @@
-**Connect App Service to AI Foundry**
+# **Connect App Service to AI Foundry**
 
 What to do:
 
@@ -18,7 +18,7 @@ AZURE_OPENAI_DEPLOYMENT	gpt-4o-mini
 
 <br><br>
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 App Settings contain the 3 environment variables (key value hidden in Portal)
 
@@ -44,11 +44,14 @@ API key is NOT visible in any source code file
 
 <br><br>
 
-**Add these as Application Settings (environment variables) in the App Service:
-**
+**Add these as Application Settings (environment variables) in the App Service:**
+
 Setting Name	Value
+
 AZURE_OPENAI_ENDPOINT	Your AI Foundry endpoint URL
+
 AZURE_OPENAI_KEY	Your API key
+
 AZURE_OPENAI_DEPLOYMENT	gpt-4o-mini
 
 <br><br>
