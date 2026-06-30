@@ -1,8 +1,8 @@
 
-**Create Europe Resource Group.**
+# **Create Europe Resource Group.**
 
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 
 Resource group exists in West Europe with all 4 tags
