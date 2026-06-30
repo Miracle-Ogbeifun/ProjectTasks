@@ -1,4 +1,4 @@
-**Task 1: Create Resource Group with Tags**
+# **Task 1: Create Resource Group with Tags**
 
 What to do:
 
@@ -14,7 +14,7 @@ CostCenter	1001
 
 Owner	Your full name
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 Resource group exists in East US
 <img width="929" height="644" alt="Screenshot 2026-04-14 225309" src="https://github.com/user-attachments/assets/cc1d20c1-291b-4bc7-bb14-ad8df637029d" />
