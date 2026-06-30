@@ -20,7 +20,7 @@ You can access the project in the AI Foundry portal
 
 
 <br><br>
-**Create a Hub from the Azure Portal**
+## **Create a Hub from the Azure Portal**
 
 
 Sign in to the Azure Portal.
