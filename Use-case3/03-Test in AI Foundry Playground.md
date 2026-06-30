@@ -1,4 +1,4 @@
-## **Acceptance Criteria:**
+# **Acceptance Criteria:**
 
 All 5 queries receive relevant, accurate responses
 
