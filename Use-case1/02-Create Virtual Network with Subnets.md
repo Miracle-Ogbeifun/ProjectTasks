@@ -1,4 +1,4 @@
-**Task 2: Create Virtual Network with Subnets**
+# **Task 2: Create Virtual Network with Subnets**
 
 What to do:
 
@@ -15,7 +15,7 @@ Subnet 2	AppSubnet — 10.0.2.0/24
 Subnet 3	DataSubnet — 10.0.3.0/24
 
 
-Acceptance Criteria:
+## **Acceptance Criteria:**
 
 VNet shows address space 10.0.0.0/16
 
