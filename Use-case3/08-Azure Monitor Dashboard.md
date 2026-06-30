@@ -1,6 +1,6 @@
-**Azure Monitor Dashboard**
+# **Azure Monitor Dashboard**
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 
 Diagnostic settings are enabled on at least one resource
@@ -18,13 +18,14 @@ Metrics show data (even if minimal — a few test requests count)
 
 <br><br>
 
-Enable Diagnostic Settings (AI Foundry / OpenAI)
+## **Enable Diagnostic Settings (AI Foundry / OpenAI)**
 
 Find the Azure OpenAI resource from AI Foundry
 
 Open your AI Foundry project.
 
 Go to Management Center.
+
 Look for Connected resources → Resources
 
 <img width="1261" height="601" alt="Screenshot 2026-06-03 152042" src="https://github.com/user-attachments/assets/01f7d823-f405-488f-b86a-1c99d3ca48c5" />
