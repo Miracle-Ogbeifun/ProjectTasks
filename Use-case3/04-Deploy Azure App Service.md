@@ -1,4 +1,4 @@
-**Deploy Azure App Service**
+# **Deploy Azure App Service**
 
 What to do:
 
@@ -12,7 +12,7 @@ Deploy a simple chat UI. Use this minimal HTML file as index.html
 
 <br><br>
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 App Service is running and accessible via its URL (https://app-novatech-{id}-support.azurewebsites.net)
 
@@ -114,8 +114,10 @@ Create server.js in SSH terminal
 
 Create package.json in SSH terminal
 
+<br><br>
 <img width="990" height="510" alt="Screenshot 2026-06-03 102720" src="https://github.com/user-attachments/assets/158f34aa-1b05-4ce2-a81a-bd6b6357c015" />
 
+<br><br>
 Then open the File Manager in KUDU and paste your chat UI HTML.
 
 Run npm install in the SSH console
