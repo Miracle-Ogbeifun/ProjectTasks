@@ -1,7 +1,7 @@
-**Configure VNet Peering**
+# **Configure VNet Peering**
 
 
-**Acceptance Criteria:**
+## **Acceptance Criteria:**
 
 Both peering connections show status "Connected"
 
@@ -32,7 +32,7 @@ Allow gateway transit is disabled
 
 
 
-**Create Peering from US VNet to Europe VNet**
+## **Create Peering from US VNet to Europe VNet**
 
 Open Virtual Networks in Azure Portal.
 
