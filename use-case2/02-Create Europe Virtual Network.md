@@ -1,7 +1,7 @@
 
-**Create Europe Virtual Network**
+# **Create Europe Virtual Network**
 
-Acceptance Criteria:
+## **Acceptance Criteria:**
 
 VNet created in West Europe with 172.16.0.0/16
 
@@ -11,7 +11,7 @@ No overlap with the US VNet
 
 <br><br>
 
-**Create the Europe Virtual Network**
+## **Create the Europe Virtual Network**
 
 In the Azure Portal search bar, type Virtual Networks.
 
